@@ -33,6 +33,9 @@ namespace WhileDo
                 sayac2++;
                 Console.WriteLine("Ben bir Patika'liyim.");
             } while (sayac2 <= limit2);
+            //While loop ile koşul scope öncesi giirldiği için eğer koşul sağlanmıyorsa scope içindeki işlemler çalışmaz.
+            //Do-While ile koşul döngü sonrası girildiği için döngü 1 kez döner ve koşul daha sonra kontrol edilir.
+            //Bundan dolayı, Do- While'da Konsolda girilen Limit değerinden +1 daha fazla output gelir.
 
 
 
